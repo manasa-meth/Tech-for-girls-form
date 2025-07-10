@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff0f5;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+}
+form {
+  background: #ffffff;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff69b4;
+  max-width: 400px;
+}
+input, button {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #ff69b4;
+  color: white;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background: #ff1493;
+}
+#counter {
+  font-weight: bold;
+  color: #8b008b;
+}
+#message {
+  font-size: 18px;
+  color: green;
+  margin-top: 20px;
+}
